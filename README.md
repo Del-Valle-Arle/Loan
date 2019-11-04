@@ -1,8 +1,8 @@
-package loan;
+    package loan;
 
-import java.util.Scanner;
+    import java.util.Scanner;
 
-public class Loan {
+    public class Loan {
 
 
     public static void main(String[] args) {
@@ -14,11 +14,11 @@ public class Loan {
     Scanner myObj = new Scanner(System.in);
     
     System.out.println("BDO LOAN SYSTEM");
-    System.out.print("> Loan Amount: $");
+    System.out.print("Loan Amount: $");
     loanAm = myObj.nextDouble();
-    System.out.print("> Interest Per Year: ");
+    System.out.print("Interest Per Year: ");
     intPerYr = myObj.nextDouble();
-    System.out.print("> Monthly Payment: $");
+    System.out.print("Monthly Payment: $");
     monthPay = myObj.nextDouble();
     
     double intRate = intPerYr/100;
